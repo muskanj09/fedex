@@ -461,6 +461,9 @@ select{
         display: flex;
         align-items: center;
     }
+    .section-footer{
+        width: 100%;
+    }
 }
 
 

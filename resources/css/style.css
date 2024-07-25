@@ -139,16 +139,19 @@ header h4{
     width: 100%;
 }
 .section1{
-    padding-left: 25px;
-    padding-right: 100px;
+    padding-inline: 30px;
 }
-.section1 h1{
+.section1 h2{
     letter-spacing: 2px;
     color: black;
 }
 .section1 p{
     font-size: 120%;
     font-weight: 200;
+}
+.business-flex{
+    display: flex;
+    align-items: center;
 }
 .btn-outline{
     padding-block: 30px;
@@ -417,3 +420,47 @@ select{
 .foot h5 a:hover{
     border-bottom: 1px solid white;
 }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 980px){
+    .section-business{
+        margin: 50px ;
+    }
+    .navlist{
+        display: none;
+    }
+    header{
+        height: auto;
+    }
+    .section3img{
+        height: auto;
+    }
+    .section1img{
+        height: auto;
+        width: 100%;
+    }
+    .section-cinematics{
+        display: none;
+    }
+    .section-shipment,
+    .section-sustainable{
+        padding: 50px;
+    }
+    .cinematics .card{
+        padding: 20px;
+    }
+    .business-flex,
+    .sustainable-flex{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
